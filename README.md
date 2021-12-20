@@ -44,7 +44,7 @@ Users should be able to:
 
 ### What I learned
 
-- Reviewed flex box, overlay technique
+- Reviewed flex box, mix-blend-mode technique on image
 - Practice responsive design
 
 ### Continued development
