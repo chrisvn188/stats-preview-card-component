@@ -43,26 +43,16 @@ body {
 
 .hero-container {
   width: 100%;
-  position: relative;
+  background-color: var(--accent);
+  border-radius: 10px 10px 0 0;
 }
 
 .hero-img {
   width: 100%;
   height: auto;
   vertical-align: middle;
-  border-radius: 10px 10px 0 0;
-}
-
-.overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: var(--accent);
-  opacity: 0.6;
-  border-radius: 10px 10px 0 0;
-  filter: brightness(80%);
+  border-radius: inherit;
+  mix-blend-mode: multiply;
 }
 
 .card-content {
@@ -130,15 +120,11 @@ body {
 
   .hero-container {
     width: 50%;
+    border-radius: 0 10px 10px 0;
   }
   .hero-img {
     width: 100%;
     height: auto;
-    border-radius: 0 10px 10px 0;
-  }
-
-  .overlay {
-    border-radius: 0 10px 10px 0;
   }
 
   .card-content {
